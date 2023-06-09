@@ -80,12 +80,16 @@ h4{
 	filter: invert(46%) sepia(84%) saturate(434%) hue-rotate(157deg) brightness(94%) contrast(106%);
 }
 .menu-icon{
+	margin-top: 30px;
 	width: 20px;
 	transform: rotate(270deg);
+	animation-iteration-count: infinite;
+	--animate-duration: 8s;
 }
 .header-animat{
 	animation-delay: 2s;
 }
+
 
 
 
