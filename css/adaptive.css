@@ -5,6 +5,7 @@
 
 /* Portrait tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
+  /*FIRST-SCREEN*/
   .container{
     max-width: 992px;
   }
@@ -30,15 +31,23 @@
   .info-block__item{
     margin-left: 0px;
   }
+  /*HEADER*/
+  .header{
+
+  }
+  .header-title{
+    font-size: 28px;
+  }
+  .icons-images{
+    width: 20px;
+  }
 }
 
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
+  /*FIRST-SCREEN*/
   .container{
     max-width: 768px;
-  }
-  .header li,a,button{
-    font-size: 14px;
   }
   .main-title{
     font-size: 70px;
@@ -59,21 +68,17 @@
   .info-block__item{
     margin-left: 0px;
   }
+  /*HEADER*/
+  .header{
+    display: none;
+  }
 }
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
+  /*FIRST-SCREEN*/
   .container{
     max-width: 480px;
-  }
-  .header li,a,button{
-    font-size: 13px;
-  }
-  .header button{
-    padding: 7px 20px;
-  }
-  .header{
-    padding: 10px 8%;
   }
   .main-title{
     font-size: 45px;
@@ -94,18 +99,17 @@
   .info-block__item{
     margin-left: 0px;
   }
+  /*HEADER*/
+  .header{
+    display: none;
+  }
 }
 
 /* Landscape phones and smaller */
 @media (max-width: 480px) {
+  /*FIRST-SCREEN*/
   .container{
     max-width: 280px;
-  }
-  .header button{
-    font-size: 10px;
-  }
-  .header li{
-    display: none;
   }
   .main-title-box{
     padding-top: 100px;
@@ -128,5 +132,9 @@
   }
   .info-block__item{
     margin-left: 0px;
+  }
+  /*HEADER*/
+  .header{
+    display: none;
   }
 }
