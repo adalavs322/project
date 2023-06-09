@@ -64,7 +64,7 @@
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
   .container{
-    max-width: 400px;
+    max-width: 480px;
   }
   .header li,a,button{
     font-size: 13px;
@@ -76,16 +76,16 @@
     padding: 10px 8%;
   }
   .main-title{
-    font-size: 40px;
+    font-size: 45px;
   }
   .sub-title{
-    font-size: 10px;
+    font-size: 12px;
   }
   .info-title{
-    font-size: 16px;
+    font-size: 18px;
   }
   .info-p{
-    font-size: 12px;
+    font-size: 14px;
   }
   .info-img{
     max-width: 30%;
@@ -108,13 +108,13 @@
     display: none;
   }
   .main-title-box{
-    padding-top: 120px;
+    padding-top: 100px;
   }
   .main-title{
     font-size: 30px;
   }
   .sub-title{
-    font-size: 10px;
+    font-size: 8px;
   }
   .info-title{
     font-size: 16px;
