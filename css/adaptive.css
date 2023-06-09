@@ -27,6 +27,9 @@
     max-width: 45%;
     margin: 5px auto;
   }
+  .info-block__item{
+    margin-left: 0px;
+  }
 }
 
 /* Portrait tablets and small desktops */
@@ -53,12 +56,15 @@
     max-width: 40%;
     margin: 5px auto;
   }
+  .info-block__item{
+    margin-left: 0px;
+  }
 }
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
   .container{
-    max-width: 480px;
+    max-width: 400px;
   }
   .header li,a,button{
     font-size: 13px;
@@ -85,10 +91,16 @@
     max-width: 30%;
     margin: 5px auto;
   }
+  .info-block__item{
+    margin-left: 0px;
+  }
 }
 
 /* Landscape phones and smaller */
 @media (max-width: 480px) {
+  .container{
+    max-width: 280px;
+  }
   .header button{
     font-size: 10px;
   }
@@ -113,5 +125,8 @@
   .info-img{
     max-width: 30%;
     margin: 5px auto;
+  }
+  .info-block__item{
+    margin-left: 0px;
   }
 }
