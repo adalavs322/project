@@ -36,6 +36,9 @@ h4{
 	font-family: "manrop-B";
 }
 
+
+
+
 /*HEADER*/
 .header{
 	position: fixed;
@@ -80,6 +83,14 @@ h4{
 	width: 20px;
 	transform: rotate(270deg);
 }
+.header-animat{
+	animation-delay: 2s;
+}
+
+
+
+
+
 /*FIRST-SCREEN*/
 .first-screen{
 	width: 100%;
@@ -97,8 +108,12 @@ h4{
 	margin: auto;
 	text-align: center;
 }
+
+
 /*title*/
 .main-title-box{
+	--animate-duration: 1s;
+	--animate-delay: 1s;
 	width: max-content;
 	padding-top: 25vh;
 	margin: auto;
@@ -112,6 +127,8 @@ h4{
 	font-size: 25px;
 	position: absolute;
 }
+
+
 /*infoblock*/
 .info-block{
 	width: 100%;
@@ -137,4 +154,18 @@ h4{
 	max-width: 50%;
 	margin: 10px auto;
 	padding-top: 15px;
+}
+
+/*info-animate*/
+.info-block-materials{
+	--animate-duration: 2s;
+	--animate-delay: .5s;
+}
+.info-block-garant{
+	--animate-duration: 2.3s;
+	--animate-delay: .7s;
+}
+.info-block-exper{
+	--animate-duration: 2.6s;
+	--animate-delay: .9s;
 }
