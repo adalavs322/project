@@ -32,7 +32,7 @@ h3{
 p{
 	font-family: "manrop-R-p";
 }
-h4{
+h4,h2{
 	font-family: "manrop-B";
 }
 
@@ -41,9 +41,15 @@ h4{
 
 /*HEADER*/
 .header{
+	display: flex;
 	position: fixed;
+	width: 100vw;
 	height: 100vh;
-	width: 10vh;
+}
+/*header-left*/
+.header-left{
+	height: 99%;
+	width: 4%;
 	left: 0;
 	top: 0;
 	text-align: center;
@@ -81,16 +87,55 @@ h4{
 }
 .menu-icon{
 	margin-top: 30px;
-	width: 20px;
-	transform: rotate(270deg);
-	animation-iteration-count: infinite;
-	--animate-duration: 8s;
+	width: 35px;
 }
 .header-animat{
 	animation-delay: 2s;
 }
-
-
+/*header-menu*/
+.header-menu{
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+.black-box-menu{
+	width: 100%;
+  height: 100%;
+  background-color: rgba(15, 15, 15, 0.75);
+}
+.menu-overlay{
+	display: flex;
+	justify-content: space-between;
+}
+.menu__item{
+	list-style: none;
+	width: 28%;
+	height: 80vh;
+	margin: 50px auto;
+	background-position: center;
+	background-size: cover;
+}
+.menu-title{
+	width: max-content;
+	margin: 0 auto;
+	vertical-align: middle;
+	font-size: 50px;
+	padding-top: 200px;
+}
+.menu__item:hover{
+	filter: brightness(90%);
+}
+.menu-hammam{
+	background-image: url(../images/menu/intro-hammam.jpg);
+}
+.menu-fier{
+	background-image: url(../images/menu/intro-fier.jpg);
+}
+.menu-sauna{
+	background-image: url(../images/menu/intro-sauna.jpg);
+}
+/*mob*/
 
 
 
