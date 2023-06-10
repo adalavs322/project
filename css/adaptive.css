@@ -41,6 +41,22 @@
   .icons-images{
     width: 20px;
   }
+  /*INFO-ABOUT-INFO*/
+  .info-about-bg{
+    height: 700px;
+  }
+  .box-border{
+
+  }
+  .box-border-info{
+    width: 60%;
+  }
+  .about-title{
+    font-size: 22px;
+  }
+  .about-text{
+    font-size: 16px;
+  }
 }
 
 /* Portrait tablets and small desktops */
@@ -93,6 +109,32 @@
   }
   .links-icons{
     margin: 10px;
+  }
+  /*INFO-ABOUT-INFO*/
+  .container-about{
+    max-width: 768px;
+    margin: auto;
+    text-align: center;
+  }
+  .info-about-bg{
+    height: 700px;
+  }
+  .box-border, .box-border-info{
+    left: 0;
+    right: 0;
+    position: relative;
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .about-title{
+    font-size: 18px;
+    margin: 14px;
+  }
+  .about-text{
+    font-size: 16px;
+    margin: 14px;
   }
   
 }
@@ -169,6 +211,32 @@
     position: absolute;
     top: 50px;
   }
+  /*INFO-ABOUT-INFO*/
+  .container-about{
+    max-width: 480px;
+    margin: auto;
+    text-align: center;
+  }
+  .info-about-bg{
+    height: 500px;
+  }
+  .box-border, .box-border-info{
+    left: 0;
+    right: 0;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .about-title{
+    font-size: 14px;
+    margin: 10px;
+  }
+  .about-text{
+    font-size: 12px;
+    margin: 10px;
+  }
 }
 
 /* Landscape phones and smaller */
@@ -199,6 +267,30 @@
   .info-block__item{
     margin-left: 0px;
   }
-  /*HEADER*/
-  
+  /*INFO-ABOUT-INFO*/
+  .container-about{
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+  }
+  .info-about-bg{
+    height: 600px;
+  }
+  .box-border, .box-border-info{
+    left: 0;
+    right: 0;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .about-title{
+    font-size: 14px;
+    margin: 10px;
+  }
+  .about-text{
+    font-size: 12px;
+    margin: 10px;
+  }
 }
