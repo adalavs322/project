@@ -221,19 +221,70 @@ h4,h2{
 
 
 
-/*GALLERY-Section*/
-.gallery-section{
+/*INFO-ABOUT-BLOCK*/
+.info-about-block{
 	background-color: black;
 }
-.gallerry-hammam{
+.info-about-bg{
 	width: 100vw;
 	height: 100vh;
-	background-image: url(../images/gallery/hammam/bg-gallery-hammam.jpg);
+	background-image: url(../images/about/bg-info-about.jpg);
 	background-position: center;
 	background-size: cover;
+	position: relative;
 }
-.black-box-gallery-hammam{
+.black-box-info-about{
 	width: 100%;
 	height: 100%;
 	background-color: rgba(0, 0, 0, 0.8);
+}
+.trapezoid{
+  position: absolute;
+  width: 40vw;
+	height: 100vh;
+  right: 0;
+  clip-path: polygon(36% 0, 100% 0, 100% 100%, 0 100%);
+  background: rgba(0, 0, 0, 1);
+}
+.trapezoid-hidden{
+  position: absolute;
+  width: 67vw;
+	height: 100vh;
+  right: 0;
+  clip-path: polygon(36% 0, 100% 0, 100% 100%, 57% 100%);
+  background: rgba(0, 0, 0, 0.7);
+}
+.box-border{
+  position: absolute;
+  width: 30vw;
+  border: 4px solid rgb(190, 190, 190);
+  right: 4vw;
+  top: 14vw;
+  --animate-duration: 2s;
+}
+.box-border-info{
+  position: absolute;
+  width: 55vw;
+  height: 65vh;
+  border: 4px solid rgb(190, 190, 190);
+  left: 5vw;
+  top: 8vw;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.box-border-info-hidden{
+  position: absolute;
+  width: 55vw;
+  height: 65vh;
+  border: 4px solid rgb(190, 190, 190);
+  left: 4vw;
+  top: 9vw;  
+  background-color: rgba(0, 0, 0, 0.95);
+  --animate-duration: 2s;
+}
+.about-text{
+	margin: 30px;
+}
+.about-title{
+	font-size: 24px;
+	margin: 30px;
 }

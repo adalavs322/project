@@ -49,15 +49,27 @@
 					</div>
 				</div>
 			</div>
-			<main class="gallery-section ">
-				<div data-speed="1.3" class="gallerry-hammam">
-					<div class="black-box-gallery-hammam">
-						<div class="container">
-							
+			<div class="info-about-block">
+				<div data-speed="1.3" class="info-about-bg">
+					<div class="black-box-info-about">
+						<div class="trapezoid animate__animated animate__fadeInRight animate__delay-3s"></div>
+						<div class="trapezoid-hidden animate__animated animate__fadeInRight animate__delay-2s"></div>
+						<div class="box-border animate__animated animate__fadeInDown animate__delay-4s">
+							<h4 class="about-title">
+								Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae veniam quia odio? Doloremque eum nesciunt cupiditate rerum fugiat error quasi laborum veniam fugit, aliquam a, sit eius praesentium totam vitae.
+							</h4>
+						</div>
+						<div class="box-border-info animate__animated animate__fadeInLeftBig animate__delay-2s"></div>
+						<div class="box-border-info-hidden animate__animated animate__fadeInLeftBig animate__delay-2s">
+							<h3 class="about-text">
+								Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias itaque quam quidem, libero distinctio repellendus delectus accusamus at ratione quasi in iure perferendis qui sint totam cupiditate autem voluptatibus voluptatem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ducimus sit hic ipsa provident, aperiam eaque aliquid harum, possimus cumque ipsam quidem? Aliquam id ipsa, harum ex nostrum quas nam!
+								Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias itaque quam quidem, libero distinctio repellendus delectus accusamus at ratione quasi in iure perferendis qui sint totam cupiditate autem voluptatibus voluptatem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ducimus sit hic ipsa provident, aperiam eaque aliquid harum, possimus cumque ipsam quidem? Aliquam id ipsa, harum ex nostrum quas nam!
+								Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias itaque quam quidem, libero distinctio repellendus delectus accusamus at ratione quasi in iure perferendis qui sint totam cupiditate autem voluptatibus voluptatem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ducimus sit hic ipsa provident, aperiam eaque aliquid harum, possimus cumque ipsam quidem? Aliquam id ipsa, harum ex nostrum quas nam!
+							</h3>
 						</div>
 					</div>
 				</div>
-			</main>
+			</div>
 		</div>
 	</div>
 
@@ -100,5 +112,18 @@
         a.style.display = (a.style.display === 'none') ? 'block' : 'none';
     };
   </script>
+	<script>
+		const observer = new IntersectionObserver(entries => {
+			// перебор записей
+			entries.forEach(entry => {
+				// если элемент появился
+				if (entry.isIntersecting) {
+					// добавить ему CSS-класс
+					entry.target.classList.add('square-animation');
+				}
+			});
+		});
+		observer.observe(document.querySelector('.square'));
+	</script>
 </body>
 </html>
