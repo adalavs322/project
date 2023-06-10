@@ -92,6 +92,7 @@ h4,h2{
 .header-animat{
 	animation-delay: 2s;
 }
+
 /*header-menu*/
 .header-menu{
 	background-color: black;
@@ -135,7 +136,6 @@ h4,h2{
 .menu-sauna{
 	background-image: url(../images/menu/intro-sauna.jpg);
 }
-/*mob*/
 
 
 
@@ -158,13 +158,12 @@ h4,h2{
 	text-align: center;
 }
 
-
 /*title*/
 .main-title-box{
 	--animate-duration: 1s;
 	--animate-delay: 1s;
 	width: max-content;
-	padding-top: 25vh;
+	padding-top: 22vh;
 	margin: auto;
 }
 .main-title{
@@ -177,7 +176,6 @@ h4,h2{
 	position: absolute;
 }
 
-
 /*infoblock*/
 .info-block{
 	width: 100%;
@@ -189,6 +187,7 @@ h4,h2{
 	max-width: 345px;
 	margin-left: 50px	;
 	text-align: center;
+	margin-bottom: 30px;
 }
 .info-title{
 	color: wheat;
@@ -217,4 +216,24 @@ h4,h2{
 .info-block-exper{
 	--animate-duration: 2.6s;
 	--animate-delay: .9s;
+}
+
+
+
+
+/*GALLERY-Section*/
+.gallery-section{
+	background-color: black;
+}
+.gallerry-hammam{
+	width: 100vw;
+	height: 100vh;
+	background-image: url(../images/gallery/hammam/bg-gallery-hammam.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.black-box-gallery-hammam{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
 }
