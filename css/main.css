@@ -279,3 +279,18 @@ h4,h2{
 .about-text{
 	margin: 30px;
 }
+
+
+
+/*MAIN-GALLERY*/
+
+/*gallery-hammam*/
+.gallery-hammam{
+	width: 100%;
+	background-image: url(../images/gallery/hammam/bg-gallery-hammam.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.black-box-gallery-hammam{
+	background-color: rgba(15, 15, 15, 0.8);
+}
