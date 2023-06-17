@@ -45,9 +45,6 @@
   .info-about-bg{
     height: 700px;
   }
-  .box-border{
-
-  }
   .box-border-info{
     width: 60%;
   }
@@ -115,7 +112,9 @@
     max-width: 768px;
     margin: auto;
     text-align: center;
+    padding-top: 30px;
   }
+ 
   .info-about-bg{
     height: 700px;
   }
@@ -126,6 +125,8 @@
     width: 75%;
     text-align: center;
     margin: auto;
+  }
+  .box-border-info{
     margin-top: 30px;
   }
   .about-title{
@@ -216,6 +217,7 @@
     max-width: 480px;
     margin: auto;
     text-align: center;
+    padding-top: 30px;
   }
   .info-about-bg{
     height: 500px;
@@ -227,6 +229,8 @@
     width: 100%;
     text-align: center;
     margin: auto;
+  }
+  .box-border-info{
     margin-top: 30px;
   }
   .about-title{
