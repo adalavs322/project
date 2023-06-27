@@ -44,13 +44,13 @@ h4,h2{
 .header{
 	display: flex;
 	position: fixed;
-	width: 100vw;
+	width: 4vw;
 	height: 100vh;
 }
 /*header-left*/
 .header-left{
-	height: 99%;
-	width: 4%;
+	height: 100%;
+	width: 100%;
 	left: 0;
 	top: 0;
 	text-align: center;
@@ -283,14 +283,144 @@ h4,h2{
 
 
 /*MAIN-GALLERY*/
-
-/*gallery-hammam*/
-.gallery-hammam{
+.gallery-block{
+	background-color: black;
+}
+.gal-block{
 	width: 100%;
 	background-image: url(../images/gallery/hammam/bg-gallery-hammam.jpg);
 	background-position: center;
 	background-size: cover;
 }
-.black-box-gallery-hammam{
-	background-color: rgba(15, 15, 15, 0.8);
+.box-hammam{
+	background-color: rgba(15, 15, 15, 0.85);
+}
+.gallery__item{
+	display: flex;
+	padding: 40px 0;
+}
+.gallery__left{
+	width: 70%;
+}
+.gallery__right{
+	width: 28%;
+	margin-left: 1.5%;
+	background-color: black;
+}
+.text-box-gallery{
+	height: 100%;
+}
+.gallery-title{
+	margin: 50px 15px;
+	font-size: 40px;
+}
+.gallery-description{
+	height: 60%;
+	display: flex;
+  align-items: center;
+	text-align: justify;
+	font-size: 18px;
+	padding: 15px;
+}
+/*slider*/
+.swiper{
+	width: 100%;
+	height: 600px;
+}
+.swiper-slide img{
+	width: 100%;
+	height: 100%;
+}
+
+/*callback*/
+.callback-form{
+	width: 100%;
+	margin-top: 30px;
+	padding-bottom: 100px;
+}
+.callback-form-title{
+	background-color: black;
+	padding: 30px;
+}
+.callback-form-input{
+	display: flex;
+	width: 100%;
+}
+.name{
+	width: 50%;
+	color: black;
+}
+.tel-number{
+	width: 50%;
+	color: black;
+}
+.callback{
+	width: 100%;
+}
+.call-form{
+	display: flex;
+	height: 100%;
+}
+.date-call{
+	width: 34%;
+	font-size: 8px;
+	background-color: black;
+}
+.btn-call{
+	color: white;
+	background-color: rgb(0, 0, 0);
+	transition: all 0.5s ease 0s;
+	border: 5px solid rgb(23, 23, 23);
+	font-family: "manrop-R-p";
+	width: 300px;
+	height: 70px;
+	position: absolute;
+	margin-top: 60px;
+	margin-left: 450px;
+}
+.btn-call:hover{
+	background-color: rgba(255, 0, 0,.25);
+	transition: all 0.5s ease 0s;
+	box-shadow: 0 0 0 0.2rem rgba(255, 0, 0,.05);
+	border: 5px solid rgba(255, 0, 0,.15);
+}
+
+.sauna-block{
+	background-image: url(../images/gallery/sauna/bg-gallery-sauna.jpg);
+}
+.w50{
+	width: 50%;
+}
+.w48{
+	width: 48%;
+}
+.left-right{
+	margin-right: 1.5%;
+	margin-left: 0;
+}
+.gallery-right-fier{
+	display: flex;
+	background: none;
+}
+.fier-title{
+	width: 30%;
+	background-color: black;
+	padding: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	writing-mode: vertical-lr;
+	padding-left: 55px;
+}
+.fier-description{
+	width: 70%;
+	background-color: black;
+	height: 100%;
+	margin-top: 0;
+	
+}
+
+.foother{
+	width: 100vw;
+	background-color: black;
 }

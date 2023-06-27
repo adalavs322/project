@@ -12,11 +12,18 @@
 	<script src="libs/gsap/ScrollTrigger.min.js" defer></script>
 	<script src="libs/gsap/ScrollSmoother.min.js" defer></script>
 
-	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="./css/adaptive.css">
 	<script src="js/app.js" defer></script>
 
 	<link rel="stylesheet" href="./css/animate.min.css">
+
+	<meta name="description" content="Creative styles and ideas for custom select elements" />
+	<meta name="keywords" content="custom select, select style, javascript, inspiration, select element" />
+	<link rel="stylesheet" type="text/css" href="css/cs-select.css" />
+	<link rel="stylesheet" type="text/css" href="css/cs-skin-border.css" />
+
+
+	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 	<div class="wrapper">
@@ -76,42 +83,144 @@
 					</div>
 				</div>
 			</div>
-			
 			<main class="gallery-block">
-				<div  data-speed="1" class="gallery-hammam">
-					<div class="black-box black-box-gallery-hammam">
+				<div data-speed="1.1" id="hammam" class="gal-block hammam-block">
+					<div class="black-box box-gallery box-hammam">
 						<div class="container">
-							<h1>HELLO</h1>
-							<h1>HELLO</h1>
-							<h1>HELLO</h1>
-							<h1>HELLO</h1>
-							<h1>HELLO</h1>
-							<h1>HELLO</h1>
-							<h1>HELLO</h1>
-							<h1>HELLO</h1>
-							<h1>HELLO</h1>
-							<h1>HELLO</h1>
-							<h1>HELLO</h1>
-							<h1>HELLO</h1>
-							<h1>HELLO</h1>
-							<h1>HELLO</h1>
-							<h1>HELLO</h1>
-							<h1>HELLO</h1>
-							<h1>HELLO</h1>
-							<h1>HELLO</h1>
+							<div class="gallery__item">
+								<div class="gallery__left gallery">
+									<div class="swiper">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide" data-swiper-autoplay="2000"><img src="./1.jpg" alt=""></div>
+											<div class="swiper-slide"><img src="./2.jpg" alt=""></div>
+											<div class="swiper-slide"><img src="./3.jpg" alt=""></div>
+											<div class="swiper-slide"><img src="./4.jpg" alt=""></div>
+											<div class="swiper-slide"><img src="./5.jpg" alt=""></div>
+											<div class="swiper-slide"><img src="./6.jpg" alt=""></div>
+										</div>
+									</div>
+								</div>
+								<div class="gallery__right gallery">
+									<div class="text-box-gallery">
+										<h2 class="gallery-title">
+											Хаммам
+										</h2>
+										<p class="gallery-description">
+											Хамам - это не только место для оздоровления, но также источник уюта и красоты в вашем доме. Он помогает избавиться от стресса и улучшить кровообращение, в то же время создает атмосферу релаксации и комфорта. Наша компания предлагает строительство хамама, который станет гармоничной частью вашего дома и подарит вам моменты наслаждения и удовольствия. Свяжитесь с нами, чтобы создать идеальный хамам, который будет соответствовать всем вашим пожеланиям и потребностям.										</p>
+									</div>
+								</div>
+							</div>
+							<div class="callback-form">
+								<div class="callback-form-title">
+									<h3>
+										Если есть вопросы, то можете указать номер, дату и время и мы перезвоним когда вам удобно
+									</h3>
+								</div>
+								<div class="callback-form-input">
+									<form class="callback" id="call_back">
+										<div class="call-form">
+												<input type="text" name="name" class="name" placeholder="Имя и Фамилия">
+												<input type="text" name="tel_number" class="tel-number" placeholder="Номер телефона">
+												<button type='submit' name="btn_call" class="btn-call">Перезвоните мне</button>
+										</div>
+									</form>
+									<section class="date-call">
+										<select class="cs-select cs-skin-border">
+											<option value="" disabled selected>Когда вам перезвонить?</option>
+											<option value="today-b-l">Сегодня после обеда</option>
+											<option value="today-a-l">Завтра до обеда</option>
+											<option value="tomorrow">Завтра после обеда</option>
+										</select>
+									</section>
+								</div>	
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div data-speed="1.2" id="sauna" class="gal-block sauna-block">
+					<div class="black-box box-gallery box-hammam">ы
+						<div class="container">
+							<div class="sauna-item gallery__item">
+								<div class="gallery__right gallery left-right">
+									<div class="text-box-gallery">
+										<h2 class="gallery-title ">
+											Сауна
+										</h2>
+										<p class="gallery-description">
+											Сауна - это не просто место для отдыха, это настоящий оазис для тела и души. После посещения сауны улучшается кровообращение, укрепляются иммунитет и нервная система, а также уменьшается стресс. Строительство сауны в доме позволит вам наслаждаться всеми этими преимуществами в любое время года, без необходимости посещать общественные бани. Наслаждайтесь здоровьем и комфортом в сауне вашей мечты, которую мы построим для вас!			</p>					
+									</div>
+								</div>
+								<div class="gallery__left gallery">
+									<div class="swiper">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide" data-swiper-autoplay="2000"><img src="./1.jpg" alt=""></div>
+											<div class="swiper-slide"><img src="./2.jpg" alt=""></div>
+											<div class="swiper-slide"><img src="./3.jpg" alt=""></div>
+											<div class="swiper-slide"><img src="./4.jpg" alt=""></div>
+											<div class="swiper-slide"><img src="./5.jpg" alt=""></div>
+											<div class="swiper-slide"><img src="./6.jpg" alt=""></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div data-speed="1.4" id="fireplace" class="gal-block fier-block">
+					<div class="black-box box-gallery box-hammam">
+						<div class="container">
+							<div class="fier-item gallery__item">
+								<div class="gallery__left gallery w50">
+									<div class="swiper">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide" data-swiper-autoplay="2000"><img src="./1.jpg" alt=""></div>
+											<div class="swiper-slide"><img src="./2.jpg" alt=""></div>
+											<div class="swiper-slide"><img src="./3.jpg" alt=""></div>
+											<div class="swiper-slide"><img src="./4.jpg" alt=""></div>
+											<div class="swiper-slide"><img src="./5.jpg" alt=""></div>
+											<div class="swiper-slide"><img src="./6.jpg" alt=""></div>
+										</div>
+									</div>
+								</div>
+								<div class="gallery__right gallery w48 gallery-right-fier">
+										<h2 class="gallery-title fier-title">
+											Камин
+										</h2>
+										<p class="gallery-description fier-description">
+											Камин – это не просто элемент декора, это настоящий семейный очаг, который создаст уют и тепло в вашем доме. Он не только станет центром вечерних посиделок, но и поможет сэкономить на отоплении. После постройки камина вы сможете наслаждаться приятной атмосферой, проводить время с близкими и расслабляться в уютной обстановке. Наша компания гарантирует качественное строительство и индивидуальный подход к каждому клиенту.										</p>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</main>
+			<!-- <div class="foother">
+				<h1>ССЫЛКА</h1>
+				<h1>ССЫЛКА</h1>
+				<h1>ССЫЛКА</h1>
+				<h1>ССЫЛКА</h1>
+				<h1>ССЫЛКА</h1>
+				<h1>ССЫЛКА</h1>
+				<h1>ССЫЛКА</h1>
+				<h1>ССЫЛКА</h1>
+				<h1>ССЫЛКА</h1>
+				<h1>ССЫЛКА</h1>
+				<h1>ССЫЛКА</h1>
+				<h1>ССЫЛКА</h1>
+				<h1>ССЫЛКА</h1>
+				<h1>ССЫЛКА</h1>
+			</div> -->
 		</div>
 	</div>
 
-	<div class="header">
-		<div class="header-left animate__animated animate__fadeInDown header-animat">
+	<div id="head" class="header">
+		<div id="head-left" class="header-left animate__animated animate__fadeInDown header-animat">
 			<h1 class="header-title">TEPLODOM NNOV</h1>	
 			<img id="btn-menu-open" class="menu-icon" src="./icons/menus.png" alt="">
 			<div class="links-icons">
-				<img src="./icons/links/vk.png" alt="" class="icons-images vk">
+				<a target="_blank" href="https://vk.com/teplodom_nnov"><img src="./icons/links/vk.png" alt="" class="icons-images vk"></a>
 				<img src="./icons/links/vb.png" alt="" class="icons-images vb">
 				<img src="./icons/links/tg.png" alt="" class="icons-images tg">
 				<img src="./icons/links/wp.png" alt="" class="icons-images wp">
@@ -119,17 +228,17 @@
 		</div>
 		<div id="menu" class="header-menu animate__animated animate__backInLeft">
 			<ul class="menu-overlay">
-				<li class="menu__item menu-hammam">
+				<li id="btn-hammam" class="menu__item menu-hammam">
 					<div class="black-box-menu">
 						<h2 class="menu-title">Хаммам</h2>
 					</div>
 				</li>
-				<li class="menu__item menu-sauna">
+				<li id="btn-sauna" class="menu__item menu-sauna">
 					<div class="black-box">
 						<h2 class="menu-title">Сауна</h2>
 					</div>
 				</li>
-				<li class="menu__item menu-fier">
+				<li id="btn-fier" class="menu__item menu-fier">
 					<div class="black-box">
 						<h2 class="menu-title">Камин</h2>
 					</div>
@@ -140,23 +249,114 @@
 
 	<script>
     const btn = document.querySelector("#btn-menu-open");
-    let a = document.querySelector("#menu")
+    let menuScreen = document.querySelector("#menu")
+		let header = document.querySelector("#head")
+		let headLeft = document.querySelector("#head-left")
     btn.onclick = () => {
-        a.style.display = (a.style.display === 'none') ? 'block' : 'none';
+			if (window.screen.width > 992){
+				menuScreen.style.display = (menuScreen.style.display === 'none') ? 'block' : 'none';
+				header.style.width = (header.style.width == '4vw') ? '100vw': '4vw';
+				headLeft.style.width = (headLeft.style.width == '100%') ? '4%': '100%';
+			}else{
+				menuScreen.style.display = (menuScreen.style.display === 'none') ? 'block' : 'none';
+				header.style.height = (header.style.height == '60px') ? '100vh': '60px';
+				headLeft.style.height = (headLeft.style.height == '100%') ? '60px': '100%';
+			}
     };
   </script>
-	<script>
-		const observer = new IntersectionObserver(entries => {
-			// перебор записей
-			entries.forEach(entry => {
-				// если элемент появился
-				if (entry.isIntersecting) {
-					// добавить ему CSS-класс
-					entry.target.classList.add('square-animation');
-				}
-			});
+
+	<link rel="stylesheet" href="./css/swiper-boundle.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+	<script>const swiper = new Swiper('.swiper', {
+			direction: 'horizontal',
+			loop: true,
+			speed: 900,
+			//effect:'cube',
+			autoplay: {
+			delay: 7000,
+			},
 		});
-		observer.observe(document.querySelector('.square'));
+	</script>
+
+	<script>
+		let btnHamam = document.querySelector("#btn-hammam");
+		const hamam = document.querySelector("#hammam")
+		let btnSauna = document.querySelector("#btn-sauna");
+		const sauna = document.querySelector("#sauna")
+		let btnFier = document.querySelector("#btn-fier");
+		const fier = document.querySelector("#fireplace")
+		btnHamam.onclick = () => {
+			if (window.screen.width > 992){
+				menuScreen.style.display = (menuScreen.style.display === 'none') ? 'block' : 'none';
+				header.style.width = (header.style.width == '4vw') ? '100vw': '4vw';
+				headLeft.style.width = (headLeft.style.width == '100%') ? '4%': '100%';
+			}else{
+				menuScreen.style.display = (menuScreen.style.display === 'none') ? 'block' : 'none';
+				header.style.height = (header.style.height == '60px') ? '100vh': '60px';
+				headLeft.style.height = (headLeft.style.height == '100%') ? '60px': '100%';
+			}
+			window.scrollTo(0,hamam.getBoundingClientRect().y)
+		};
+		btnSauna.onclick = () => {
+			if (window.screen.width > 992){
+				menuScreen.style.display = (menuScreen.style.display === 'none') ? 'block' : 'none';
+				header.style.width = (header.style.width == '4vw') ? '100vw': '4vw';
+				headLeft.style.width = (headLeft.style.width == '100%') ? '4%': '100%';
+			}else{
+				menuScreen.style.display = (menuScreen.style.display === 'none') ? 'block' : 'none';
+				header.style.height = (header.style.height == '60px') ? '100vh': '60px';
+				headLeft.style.height = (headLeft.style.height == '100%') ? '60px': '100%';
+			}
+			window.scrollTo(0,sauna.getBoundingClientRect().y)
+		};
+		btnFier.onclick = () => {
+			if (window.screen.width > 992){
+				menuScreen.style.display = (menuScreen.style.display === 'none') ? 'block' : 'none';
+				header.style.width = (header.style.width == '4vw') ? '100vw': '4vw';
+				headLeft.style.width = (headLeft.style.width == '100%') ? '4%': '100%';
+			}else{
+				menuScreen.style.display = (menuScreen.style.display === 'none') ? 'block' : 'none';
+				header.style.height = (header.style.height == '60px') ? '100vh': '60px';
+				headLeft.style.height = (headLeft.style.height == '100%') ? '60px': '100%';
+			}
+			window.scrollTo(0,fier.getBoundingClientRect().y)
+		};
+		
+	</script>
+
+	<script src="js/classie.js"></script>
+	<script src="js/selectFx.js"></script>
+
+	<script>
+		(function() {
+			[].slice.call( document.querySelectorAll( 'select.cs-select' ) ).forEach( function(el) {	
+				new SelectFx(el);
+			} );
+		})();
+	</script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+<script>
+		const TOKEN = "6225934335:AAH4kNGzd2Qvm3o9LD23HGyG1rgWc4jQ0C8";
+		const CHAT_ID = "-1001925899329";
+		const URL_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
+
+		document.getElementById('call_back').addEventListener('submit', function(e) {
+				e.preventDefault();
+
+				let message = `Заявка с сайта\n`;
+				message += `Имя отправителя: ${ this.name.value }\n`;
+				message += `Номер отправителя: ${ this.tel_number.value }`;
+
+				axios.post(URL_API, {
+						chat_id: CHAT_ID,
+						text: message
+				})
+		});
+	</script>
+	<script>
+		document.getElementById('to-vk').
 	</script>
 </body>
 </html>
